@@ -1,9 +1,9 @@
 # The URL of the site. It is used in the atom feed, the sitemap, the Open Graph meta field of each page, and the robots.txt
 # No trailing slashes!
-url: https://rust.code-maven.com
+url: https://c.code-maven.com
 
 # site_name is used in the atom feed and in the Open Graph meta field of each page
-site_name: Demo
+site_name: The C programming language
 
 # The source of the https://rust.code-maven.com site is in a public git repository
 # using the 'main' branch.
@@ -12,7 +12,7 @@ site_name: Demo
 # You can disable this feature by keeping `link_to_source` as `false`.
 # You can enable this feature by putting the correct repo link and correct branch name
 # and setting `link_to_source` to `true`
-repo: https://github.com/szabgab/rust.code-maven.com
+repo: https://github.com/szabgab/c.code-maven.com
 branch: main
 link_to_source: false
 
@@ -23,7 +23,7 @@ footer: Demo of [Code Maven RS](https://github.com/szabgab/code-maven.rs) with l
 # The following parameters set the `title` of the page and the content of the `description` meta-tag.
 tags:
   title: Tags
-  description: Articles about Foo Bar
+  description: Articles about the C programming language
 
 # Each site has a /archive page generated from all the pages, except the main page (the root index.md file).
 # The following parameters set the `title` of the page and the content of the `description` meta-tag.
@@ -37,9 +37,9 @@ archive:
 
 # Fields used by the email sender
 # TODO: Explain the whole email sending via `sendgrid`
-from:
-  name: Foo Bar
-  email: foo@bar.com
+#from:
+#  name: Foo Bar
+#  email: foo@bar.com
 
 # On each page show the list of pages that link to the current page.
 # Define the title of the section when the related pages are shown
@@ -53,9 +53,9 @@ related_pages_title: Related Pages
 # Those file can contain information about the author that will be displayed at the bottom of each page.
 # TODO: where is the image located
 authors:
-  - name: Foo Bar
-    nickname: foobar
-    picture: foobar.png
+  - name: Gabor Szabo
+    nickname: szabgab
+    picture: szabgab.png
 
 # The following section defines the menu. The "start" will be left-aligned the "end" will be right aligned.
 # TODO: Once we implement rtl site this will probably be the other direction too
