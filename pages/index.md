@@ -32,5 +32,10 @@ I learned C at the university and I have not used it since, but I think it will 
 
 [The C Programming language on Wikipedia](https://en.wikipedia.org/wiki/The_C_Programming_Language)
 
+{% latest limit=5 %}
+
+## Source
+
+Both the [source of the content](https://github.com/szabgab/c.code-maven.com/) and the source of the code [generating the site](https://github.com/szabgab/code-maven.rs) can be accessed. So if you have any requests for additional content or features for the web site you will know where to submit those requests.
 
 

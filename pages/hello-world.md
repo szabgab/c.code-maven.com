@@ -1,5 +1,5 @@
 ---
-title: Title
+title: Hello World! - The first example in The C Programming Language
 timestamp: 2024-06-18T07:50:01
 author: szabgab
 published: true
