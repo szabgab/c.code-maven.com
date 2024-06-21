@@ -51,7 +51,12 @@ You might not like the default name of `a.out`. You can tell `gcc` how to call t
 $ gcc -o hello hello_world.c
 ```
 
-This will create a file called `hello` which we can run as `./hello`.
+This will create a file called `hello` which we can run as:
+
+```
+$ ./hello
+Hello World!
+```
 
 On Linux executables don't need to have an extension.
 
