@@ -16,7 +16,7 @@ In the [hello world example](/hello-world) we skipped over why the `main` functi
 
 Every program that terminates sets a value we usually call `exit code`. The process that ran the program then can have access to the
 exit code of the most recently ended program. On Linux and macOS the exit code of the previous program is stored in the `$?` variable.
-On MS Windows it is store in the `%ERROR_LEVEL% variable.
+On MS Windows it is store in the `%ERROR_LEVEL%` variable.
 
 If we run the program from a terminal, we can see the content of this variable using the
 
