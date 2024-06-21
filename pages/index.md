@@ -33,7 +33,7 @@ I learned C at the university and I have not used it since, but I think it will 
 {% latest limit=5 %}
 
 
-I think I am going to read (again) the 2nd edition of the [The C Programming language on Wikipedia](https://en.wikipedia.org/wiki/The_C_Programming_Language) and I might make notes as well.
+I think I am going to read (again) the 2nd edition of the [The C Programming language](https://en.wikipedia.org/wiki/The_C_Programming_Language) and I might make notes as well.
 My primary computer runs Ubuntu Linux and thus some aspects of what I learn and write about will be probably more relevant for that OS. Once in a while I might launch a VirtualBox to run MS Windows
 and try something there too.
 
