@@ -8,7 +8,7 @@ tags:
     - blog
 todo:
     - get values from the command line
-    - promt the user and get value from the standard input
+    - prompt the user and get value from the standard input
     - if condition
     - loops
     - memory allocation and deallocation
@@ -23,7 +23,7 @@ The C programming language is probably the oldest language that is still very po
 It was surpassed by [C++](https://cpp.code-maven.com/) only recently.
 According to [PYPL - PopularitY of Programming Language](https://pypl.github.io/PYPL.html) C and C++ (measured as one language???) are on the 5th place.
 The [Stack Overflow 2023 survey](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages) puts C as the 13th most desired language
-(inncluding HTML/CSS and SQL before it).
+(including HTML/CSS and SQL before it).
 
 Checked on June 18, 2024.
 
