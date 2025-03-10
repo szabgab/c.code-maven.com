@@ -1,0 +1,17 @@
+name: Check Examples
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout site source
+        uses: actions/checkout@v4
+
+      - name: Test
+        run: python check_examples.py
+
