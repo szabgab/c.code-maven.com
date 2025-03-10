@@ -9,6 +9,8 @@
 - [Data Types in C](./data-types.md)
 - [Overflow](./overflow.md)
 - [Compile and Run in one step](./compile-and-run.md)
+- [Command line](./command-line.md)
+- [Copy STDIN to STDOUT](./copy-stdin-to-stdout.md)
 
 
 - [TODO](./todo.md)
