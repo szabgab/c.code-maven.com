@@ -1,0 +1,10 @@
+Number of 0 digits: 1
+Number of 1 digits: 3
+Number of 2 digits: 1
+Number of 3 digits: 2
+Number of 4 digits: 2
+Number of 5 digits: 0
+Number of 6 digits: 0
+Number of 7 digits: 2
+Number of 8 digits: 3
+Number of 9 digits: 4

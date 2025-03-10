@@ -11,6 +11,9 @@
 - [Compile and Run in one step](./compile-and-run.md)
 - [Command line](./command-line.md)
 - [Copy STDIN to STDOUT](./copy-stdin-to-stdout.md)
+- [Count Characters](./count-characters.md)
+- [Count Words](./count-words.md)
+- [Count Digits](./count-digits.md)
 
 
 - [TODO](./todo.md)
