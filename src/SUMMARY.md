@@ -14,6 +14,9 @@
 - [Count Characters](./count-characters.md)
 - [Count Words](./count-words.md)
 - [Count Digits](./count-digits.md)
+- [Pass a pointer](./increment.md)
+- [Pass an array](./pass-array.md)
+- [Palindrome](./palindrome.md)
 
 
 - [Uninitialized variables](./uninitialized.md)
