@@ -1,22 +1,15 @@
----
-title: Hello World! - The first example in The C Programming Language
-timestamp: 2024-06-18T07:50:01
-author: szabgab
-published: true
-description: "The first C program: printing Hello World! to the screen"
-tags:
-    - include
-    - stdio.h
-    - int
-    - main
-    - printf
----
+# Hello World! - The first example in The C Programming Language
+
+
+The first C program: printing Hello World! to the screen
 
 The very first C program to write is the one to print "Hello World!" to the screen.
 
 We create a folder with the following file in it:
 
-{% include file="examples/hello_world/hello_world.c" %}
+```c
+{{#include examples/hello_world/hello_world.c }}
+```
 
 On Linux we will use the `gcc` compiler. There are others, but as I understand this is the most popular compiler.
 
@@ -76,7 +69,7 @@ For now I'll use the style I used to use for years other languages.
 
 The C language is very simple, it can't even print to the screen on its own. We need to use a library to be able to print to the screen. The line
 
-```
+```c
 #include <stdio.h>
 ```
 
@@ -86,4 +79,9 @@ This allows us to use the `printf` function to print to the screen.
 
 We put the text (string) in double-quotes and we use the `\n` special symbol to tell C to print a newline.
 
+    include
+    stdio.h
+    int
+    main
+    printf
 
