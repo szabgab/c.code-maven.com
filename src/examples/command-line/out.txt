@@ -1,0 +1,3 @@
+Number of arguments including the program itself: 1
+The program: './a.out'
+There are no command-line arguments.

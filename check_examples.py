@@ -35,7 +35,10 @@ def main():
                 os.unlink('a.out')
 
             os.system('gcc ' + src_file)
-            os.system('./a.out > /tmp/out.txt 2> /tmp/err.txt')
+            cmd = './a.out > /tmp/out.txt 2> /tmp/err.txt'
+            if (os.path.exists('in.txt')):
+                cmd += ' < in.txt'
+            os.system(cmd)
 
             if (os.path.exists('out.txt')):
                 expected_out = open('out.txt').read()
