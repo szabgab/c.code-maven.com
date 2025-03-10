@@ -1,0 +1,2 @@
+Iterative factorial of 5: 120
+Recursive factorial of 5: 120

@@ -15,11 +15,11 @@ Operating System etc.
 | `double` | double-precision floating point   |
 
 ```c
-{{#include src/examples/value-ranges/main.c }}
+{{#include examples/value-ranges/main.c }}
 ```
 
 On my 64bit machine running Ubuntu Linux:
 
 ```
-{{#include src/examples/value-ranges/out.txt }}
+{{#include examples/value-ranges/out.txt }}
 ```
