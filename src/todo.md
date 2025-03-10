@@ -14,3 +14,6 @@
 
 
 - exit in the middle of the code
+- how to test C code?
+- how to notice code where we might be accessing undefined values or array element that is out of index etc.
+- how to avoid overflow and undeflow?
