@@ -1,7 +1,6 @@
 [book]
 authors = ["Gabor Szabo"]
 language = "en"
-multilingual = false
 src = "src"
 title = "C Maven"
 description = "Everything I know about the C programming language that you might also want to know."
