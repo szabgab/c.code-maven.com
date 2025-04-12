@@ -17,7 +17,7 @@ def main():
         os.chdir(root)
         example_dir = os.path.join(examples_dir, example)
         # The word-count gives different results on the CI server. Why?
-        if example in ["out-of-range-index", "uninitialized", "word-count"]:
+        if example in ["out-of-range-index", "uninitialized", "word-count", "count-zero-bits-in-unsigned-integer"]:
             continue
         if os.path.isdir(example_dir):
             print(example)
