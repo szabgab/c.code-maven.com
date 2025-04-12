@@ -17,6 +17,7 @@
 - [Pass a pointer](./increment.md)
 - [Pass an array](./pass-array.md)
 - [Palindrome](./palindrome.md)
+- [Count number of zero bits in unsigned integer](./count-zero-bits.md)
 
 
 
