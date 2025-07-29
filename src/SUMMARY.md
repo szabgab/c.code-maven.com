@@ -18,6 +18,7 @@
 - [Pass an array](./pass-array.md)
 - [Palindrome](./palindrome.md)
 - [Count number of zero bits in unsigned integer](./count-zero-bits.md)
+- [Library with tests](./library-with-tests.md)
 
 
 
