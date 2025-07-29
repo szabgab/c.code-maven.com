@@ -10,22 +10,14 @@ Let's see a few examples with some of the [data types](./data-types.md).
 ## char
 
 
-```c
-{{#include examples/overflow-char/overflow.c }}
-```
+{% embed include file="src/examples/overflow-char/overflow.c" %}
 
-```
-{{#include examples/overflow-char/out.txt }}
-```
+{% embed include file="src/examples/overflow-char/out.txt" %}
 
 ## int
 
 
-```c
-{{#include examples/overflow-int/overflow.c }}
-```
+{% embed include file="src/examples/overflow-int/overflow.c" %}
 
-```
-{{#include examples/overflow-int/out.txt }}
-```
+{% embed include file="src/examples/overflow-int/out.txt" %}
 

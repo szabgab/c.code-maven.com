@@ -3,10 +3,6 @@
 A simple implementation of the `wc` command.
 
 
-```c
-{{#include examples/word-count/wc.c }}
-```
+{% embed include file="src/examples/word-count/wc.c" %}
 
-```
-{{#include examples/word-count/out.txt }}
-```
+{% embed include file="src/examples/word-count/out.txt" %}

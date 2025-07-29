@@ -7,9 +7,7 @@ The very first C program to write is the one to print "Hello World!" to the scre
 
 We create a folder with the following file in it:
 
-```c
-{{#include examples/hello_world/hello_world.c }}
-```
+{% embed include file="src/examples/hello_world/hello_world.c" %}
 
 On Linux we will use the `gcc` compiler. There are others, but as I understand this is the most popular compiler.
 
@@ -79,9 +77,11 @@ This allows us to use the `printf` function to print to the screen.
 
 We put the text (string) in double-quotes and we use the `\n` special symbol to tell C to print a newline.
 
-    include
-    stdio.h
-    int
-    main
-    printf
+---
+
+* include
+* stdio.h
+* int
+* main
+* printf
 

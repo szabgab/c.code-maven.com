@@ -1,5 +1,3 @@
 # Add numbers
 
-```c
-{{#include examples/add_numbers/add_numbers.c }}
-```
+{% embed include file="src/examples/add_numbers/add_numbers.c" %}

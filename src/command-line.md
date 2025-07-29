@@ -1,6 +1,4 @@
 # Command line
 
 
-```c
-{{#include examples/command-line/command_line.c }}
-```
+{% embed include file="src/examples/command-line/command_line.c" %}

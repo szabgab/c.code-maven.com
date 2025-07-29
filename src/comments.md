@@ -10,9 +10,7 @@ A multi-line comment starts with `/*`   and ends on some later line with `*/`.
 
 This can be used to add explanation to the developers and maintainers of the code and also to temporarily disable some of the code.
 
-```c
-{{#include examples/comments/comments.c }}
-```
+{% embed include file="src/examples/comments/comments.c" %}
 
 ```
 $ gcc comments.c
@@ -22,7 +20,9 @@ Hello World!
 
 
 
-    //
-    '/*'
+---
+
+* //
+* '/*'
 
 

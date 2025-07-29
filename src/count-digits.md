@@ -1,11 +1,7 @@
 # Count Digits on STDIN
 
 
-```c
-{{#include examples/count-digits/count_digits.c }}
-```
+{% embed include file="src/examples/count-digits/count_digits.c" %}
 
-```
-{{#include examples/count-digits/out.txt }}
-```
+{% embed include file="src/examples/count-digits/out.txt" %}
 

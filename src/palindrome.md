@@ -1,13 +1,7 @@
 # Palindrome
 
-```c
-{{#input examples/palanidrome/palindrome.c }}
-```
+{% embed include file="src/examples/palanidrome/palindrome.c" %}
 
-```
-{{#input examples/palanidrome/in.txt }}
-```
+{% embed include file="src/examples/palanidrome/in.txt" %}
 
-```
-{{#input examples/palanidrome/out.txt }}
-```
+{% embed include file="src/examples/palanidrome/out.txt" %}

@@ -1,7 +1,7 @@
 # Copy STDIN to STDOUT
 
 
-{{#include examples/copy-stdin-to-stdout/copy.c }}
+{% embed include file="src/examples/copy-stdin-to-stdout/copy.c" %}
 
 * stdio.h is needed to get the definition of `EOF` End of file.
 

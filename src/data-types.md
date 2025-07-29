@@ -14,12 +14,8 @@ Operating System etc.
 | `float` |  floating point (typically 32 bit) |
 | `double` | double-precision floating point   |
 
-```c
-{{#include examples/value-ranges/main.c }}
-```
+{% embed include file="src/examples/value-ranges/main.c" %}
 
 On my 64bit machine running Ubuntu Linux:
 
-```
-{{#include examples/value-ranges/out.txt }}
-```
+{% embed include file="src/examples/value-ranges/out.txt" %}

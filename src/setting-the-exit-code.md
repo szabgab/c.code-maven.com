@@ -35,9 +35,7 @@ In that case the exit code will be set to 0.
 
 In the following example we can see that we don't even need all that printing stuff for this to work:
 
-```c
-{{#include examples/exit_code/implicit_exit_code.c }}
-```
+{% embed include file="src/examples/exit_code/implicit_exit_code.c" %}
 
 ```
 $ gcc implicit_exit_code.c
@@ -50,9 +48,7 @@ $ echo $?
 
 We don't have to, but we can also `return 0` and set the exit code explicitly:
 
-```c
-{{#include examples/exit_code/explicit_exit_code_0.c }}
-```
+{% embed include file="src/examples/exit_code/explicit_exit_code_0.c" %}
 
 ```
 $ gcc explicit_exit_code_0.c
@@ -66,9 +62,7 @@ $ echo $?
 
 If we would like to indicate some error condition we can also set the exit code to any number between 1-255, for example to 3:
 
-```c
-{{#include examples/exit_code/explicit_exit_code_3.c }}
-```
+{% embed include file="src/examples/exit_code/explicit_exit_code_3.c" %}
 
 ```
 $ gcc explicit_exit_code_3.c
@@ -77,7 +71,9 @@ $ echo $?
 3
 ```
 
-    - int
-    - main
-    - return
+---
+
+- int
+- main
+- return
 
