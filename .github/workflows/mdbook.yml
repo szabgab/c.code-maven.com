@@ -21,9 +21,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      MDBOOK_VERSION: 0.5.2
+      MDBOOK_VERSION: 0.5.3
       EMBEDIFY_VERSION: 0.3.2
-      ALERTS_VERSION: 0.7.0
+      ALERTS_VERSION: 0.8.0
     steps:
       - name: Checkout site source
         uses: actions/checkout@v7
