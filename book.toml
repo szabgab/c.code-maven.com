@@ -21,7 +21,7 @@ enable = false
 footer.enable = true
 footer.message = "Copyright © 2025 • Created with ❤️  by [Gábor Szabó](https://szabgab.com/)"
 
-[preprocessor.alerts]
+#[preprocessor.alerts]
 
 
 
